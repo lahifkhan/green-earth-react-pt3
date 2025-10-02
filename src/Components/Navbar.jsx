@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import ThemeControll from "./ThemeControll";
 
 export default function Navbar() {
   const navigate = useNavigate()
@@ -64,6 +65,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
+        <ThemeControll></ThemeControll>
         <a className="btn">Button</a>
       </div>
     </div>
